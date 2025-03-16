@@ -2,9 +2,10 @@
 .testimonial-section {
   background-color: #f5f5f5;
   padding: 40px;
-  max-width: 900px;
-  margin: 0 auto;
+  max-width: 800px; /* Fixed width to avoid too much stretch */
+  margin: 0 auto; /* Center the section horizontally */
   font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 /* Section Heading */
@@ -20,6 +21,8 @@
   border: 1px solid #ccc;
   padding: 20px;
   margin-bottom: 20px;
+  box-sizing: border-box;
+  word-wrap: break-word; /* Ensures long words wrap to the next line */
 }
 
 /* Testimonial Text */
@@ -27,7 +30,7 @@
   margin: 0 0 10px 0;
   font-size: 16px;
   color: #333;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 /* Author's Name */
